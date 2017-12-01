@@ -8,7 +8,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Geemy\\": "src",
+      "Geemy\\": "src"
     },
     "files": [
       "src/helper.php"
