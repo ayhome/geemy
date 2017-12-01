@@ -1,10 +1,19 @@
 {
-    "name": "ayhome/geemy",
-    "authors": [
-        {
-            "name": "ayhome",
-            "email": "ayhome@foxmail.com"
-        }
-    ],
-    "require": {}
+  "name": "ayhome/geemy",
+  "authors": [
+      {
+          "name": "ayhome",
+          "email": "ayhome@foxmail.com"
+      }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Geemy\\": "src",
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  },
+  "type": "library",
+  "require": {}
 }
